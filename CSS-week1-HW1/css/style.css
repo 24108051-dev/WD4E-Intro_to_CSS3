@@ -1,44 +1,61 @@
-/* Bước 3: Thẻ nội dung tổng thể */
+/* Toàn bộ trang */
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Phông chữ đặc trưng của Nike */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
 }
 
-/* Bước 4: Thẻ tiêu đề đầu trang */
+/* Thanh tiêu đề (Header) */
 header {
-    background-color: #111111;        /* Nền đen huyền bí */
+    background-color: #111111; /* Nền đen của Nike */
+    padding: 20px;
 }
 
-/* Bước 5: Thẻ nav (Thanh điều hướng) */
+/* Thanh điều hướng (Nav) */
 nav {
-    background-color: #f5f5f5;           /* Nền xám nhạt tối giản */
+    background-color: #f5f5f5; /* Nền xám nhạt tối giản */
+    padding: 10px;
 }
 
-/* Bước 6: Thẻ chính (Main) */
-main {
-    background-color: #ffffff;        /* Nền trắng làm nổi bật sản phẩm */
-    font-size: 16px;
-}
-
-/* Bước 7: Thẻ chân trang (Footer) */
-footer {
-    background-color: #111111;        /* Nền đen đồng bộ với Header */
-}
-
-/* Bước 8: Thẻ li (Các mục menu - Bắt buộc hiển thị & chiều rộng) */
+/* Thẻ li (Bắt buộc thay đổi hiển thị và chiều rộng theo đề bài) */
 li {
-    display: inline-block;            /* Dàn hàng ngang làm thanh menu */
-    width: 140px;                     /* Chiều rộng cố định */
+    display: inline-block;
+    width: 160px;
 }
 
-/* Bước 9: Thẻ h1 (Tiêu đề lớn) */
+/* Định kiểu chữ cho menu */
+nav a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Khu vực nội dung chính (Main) */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Tiêu đề h1 - Màu cam Nike nổi bật trên nền đen */
 h1 {
-    text-align: center;               /* Căn giữa */
-    font-family: 'Impact', sans-serif; /* Phông chữ dày, đậm chất thể thao Just Do It */
-    color: #ff6600;                   /* Màu cam Nike đặc trưng */
+    text-align: center;
+    font-family: 'Impact', sans-serif;
+    color: #ff6600; 
+    margin: 0;
 }
 
-/* Bước 10: Thẻ p (Đoạn văn) */
+/* Đoạn văn (p) */
 p {
-    line-height: 1.6;                 /* Giúp văn bản thoáng, dễ đọc */
+    line-height: 1.8;
+    color: #333333;
+}
+
+/* Chân trang (Footer) - Sửa lỗi để chữ trắng nổi trên nền đen */
+footer {
+    background-color: #111111;
+    color: #ffffff; 
+    padding: 15px;
+    text-align: center;
 }
