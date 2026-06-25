@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
-
+<link rel="stylesheet" href="css/style.css">
 /* Thanh tiêu đề (Header) */
 header {
     background-color: #111111; /* Nền đen của Nike */
